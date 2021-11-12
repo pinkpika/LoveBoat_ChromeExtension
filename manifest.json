@@ -1,0 +1,15 @@
+{
+"manifest_version": 2,
+"name": "LoveBoat",
+"description": "A journey of love with pink and sheep. 果凍咩咩的愛之旅程-愛之船",
+"version": "1.0",
+"icons": { "128": "128.png" },
+"background": {
+    "scripts": ["background.js"],
+    "persistent": false
+},
+"browser_action": {
+    "default_icon": "128.png"
+},
+"permissions": ["tabs"]
+}
